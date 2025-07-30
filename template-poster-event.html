@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Poster Event</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header {
+            background: #55a1f1;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            background: #333;
+            padding: 10px 15px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .catalog {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .template-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .template-item {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .template-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        h3 {
+            margin-top: 10px;
+            color: #333;
+        }
+
+        footer {
+            margin-top: 30px;
+            background: #333;
+            color: white;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Template Poster Event</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <section class="catalog">
+        <h2>Daftar Template Poster Event</h2>
+        <div class="template-list">
+            <div class="template-item">
+                <img src="images/Template poster event.png" alt="Template Poster 1">
+                <h3>Template Poster 1</h3>
+            </div>
+            <div class="template-item">
+                <img src="images/placeholder.png" alt="Template Poster 2">
+                <h3>Template Poster 2</h3>
+            </div>
+            <div class="template-item">
+                <img src="images/placeholder.png" alt="Template Poster 3">
+                <h3>Template Poster 3</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Creovate</p>
+    </footer>
+
+</body>
+</html>
